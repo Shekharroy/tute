@@ -1,0 +1,203 @@
+:root {
+    --e-global-color-primary: #1e4187;
+    --e-global-color-secondary: #070052;
+    --e-global-color-text: #070052;
+    --e-global-color-accent: #ffde59;
+    --e-global-color-hover: #e7bc12;
+    --e-global-color-4391e2b: #06a3dc;
+    --e-global-color-a1354c7: #f8f8f8;
+    --e-global-color-80d51d8: #ff9f64;
+    --e-global-color-1d37d34: #7a7a7a;
+    --e-global-color-1c847b4: #f8f8f8;
+    --e-global-color-766565b: #b7bbcb;
+    --e-global-color-3abf6aa: #f4f4f4;
+    --e-global-color-55e5603: #f2f8fd;
+    --e-global-color-a37b9b7: #c1c7c8;
+    --e-global-color-272b150: #c4d2de;
+    --e-global-color-6f7647a: #99afce;
+    --e-global-color-1b69f06: #7ed957;
+    --e-global-typography-primary-font-family: "Montserrat";
+    --e-global-typography-primary-font-size: 25px;
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-primary-line-height: 1em;
+    --e-global-typography-primary-letter-spacing: .5px;
+    --e-global-typography-secondary-font-family: "Montserrat";
+    --e-global-typography-secondary-font-size: 20px;
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-secondary-line-height: 1em;
+    --e-global-typography-text-font-family: "Quicksand";
+    --e-global-typography-text-font-size: 17px;
+    --e-global-typography-text-font-weight: 500;
+    --e-global-typography-text-line-height: 1.5em;
+    --e-global-typography-accent-font-family: "Montserrat";
+    --e-global-typography-accent-font-size: 16px;
+    --e-global-typography-accent-font-weight: 500;
+    --e-global-typography-accent-line-height: 1em;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-custome-container {
+    display: flex;
+}
+
+.navbar-custome-container .tute-logo {
+    width: 50%;
+}
+
+.navbar-custome-container .tute-menu {
+    width: 50%;
+}
+
+.btn-bg {
+    color: var(--e-global-color-secondary);
+}
+
+.btn-bg:hover {
+    color: var(--e-global-color-hover);
+}
+
+.btn-secondary-color {
+    background-color: var(--e-global-color-accent);
+}
+
+.btn-secondary-color:hover {
+    color: var(--e-global-color-4391e2b);
+}
+
+.quotes-color {
+    color: var(--e-global-color-accent);
+}
+
+.banner-section {
+    height: 100vh;
+    margin-top: 12%;
+}
+
+.banner-image {
+    padding: 20px;
+}
+
+.button-width {
+    min-width: 100px;
+    margin: 0px 10px;
+}
+
+.counter-class {
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+
+
+.custome-coulmn {
+    background-color: #fff;
+    border: medium none;
+    padding: 50px !important;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+
+.custome-coulmn:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-20px);
+}
+
+.icon-color {
+    color: var(--e-global-color-hover);
+}
+
+.count-pele{
+    font-size: 14px;
+}
+
+.all-text-color{
+    color: var(--e-global-color-secondary);
+}
+
+.subjects {
+    background-color: #fff;
+    border: medium none;
+    padding: 8px !important;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 10px 2px 2px;
+    box-shadow: 0 0 5px var(--e-global-color-primary);
+}
+
+.subjects:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px);
+}
+
+.b-trail-btn {
+    background-color: var(--e-global-color-primary);
+}
+
+.b-trail-btn:hover {
+    color: var(--e-global-color-accent);
+}
+
+
+/* For Responsive Media-Query Iphone, Ipad, Ipad-pro Ipad-Mini */
+@media only screen and (max-width:400px) {
+    .banner-section  {
+        margin-top: 30% !important;
+    }
+
+}
+
+@media only screen and (max-width:576px) {
+    .btn-form {
+        margin-left: -48px !important;
+    }
+
+}
+
+@media only screen and (max-width:992px) {
+    .btn-form {
+        margin-left: -50px !important;
+    }
+
+    .button-width {
+        min-width: 100px;
+        margin: 0px 10px;
+    }
+
+    .login-section {
+        max-width: 300px;
+        margin-left: -27px;
+        display: flex !important;
+        justify-content: space-between;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar-custome-container .tute-logo {
+        width: 30%;
+    }
+
+    .navbar-custome-container .tute-menu {
+        width: 70%;
+    }
+
+    .button-width {
+        min-width: 100px;
+        margin: 0px 10px;
+    }
+
+}
